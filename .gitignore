@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Dataset
+data/
+
+# Model checkpoints
+checkpoints/
+
+# Downloaded installers and temporary downloads
+downloads/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Test and tooling cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# IDE settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

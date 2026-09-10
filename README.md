@@ -308,6 +308,14 @@ GPU acceleration was tested using an NVIDIA GTX 1650 with CUDA-enabled PyTorch.
 
 ## Acknowledgements
 
-This project is based on the open-source Radio Modulation Classification with Deep Learning implementation and extends the baseline workflow with additional data splitting, evaluation, model comparison, and CNN architecture experiments.
+## Acknowledgements
 
-RadioML 2016.10a is used as the modulation classification dataset.
+This project is based on the open-source implementation:
+
+[Radio Modulation Classification with Deep Learning](https://github.com/benyakirdolev/rf-modulation-classification)
+
+The baseline code structure was adapted from the original repository.
+
+My work mainly focused on dataset preparation, stratified train/validation/test splitting, baseline reproduction, model improvement, SNR-based evaluation, confusion-matrix analysis, and baseline-vs-improved comparison.
+
+The RadioML 2016.10a dataset is used for modulation classification experiments.
